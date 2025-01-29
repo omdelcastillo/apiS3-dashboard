@@ -43,7 +43,7 @@ const ApiDashboard = () => {
                     <h1>Monitoreo APIs DataPower</h1>
                 </div>
                 <div className="header-right">
-                    <p>Last updated: <span>{lastUpdated}</span></p>
+                    <p>Ultima Actualizacion: <span>{lastUpdated}</span></p>
                 </div>
             </header>
             <main className="api-list">
