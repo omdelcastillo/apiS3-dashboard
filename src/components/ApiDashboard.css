@@ -20,6 +20,7 @@ body {
   background-color: #4caf50;
   color: white;
   margin-bottom: 20px; /* Añadir margen inferior */
+  font-size: 0.9em; /* Ajustar el tamaño de la letra del header */
 }
 
 .header-left h1 {
@@ -88,6 +89,7 @@ body {
 footer {
   margin-top: 20px;
   text-align: center;
+  font-size: 0.6em; /* Ajusta el tamaño de la letra del footer */
 }
 
 /* Tooltip styles */

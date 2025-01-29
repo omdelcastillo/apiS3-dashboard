@@ -32,7 +32,7 @@ const ApiDashboard = () => {
         };
 
         fetchApiData();
-        const interval = setInterval(fetchApiData, 2 * 60 * 1000); // Actualizar cada 2 minutos
+        const interval = setInterval(fetchApiData, 3 * 60 * 1000); // Actualizar cada 3 minutos
         return () => clearInterval(interval);
     }, []);
 
